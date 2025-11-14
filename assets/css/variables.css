@@ -1,0 +1,27 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #0d1117;      /* Deep dark background */
+  --color-secondary: #1e3a8a;    /* Rich navy blue accent */
+  --color-accent: #00b4d8;       /* Vibrant cyan highlight */
+  --color-gradient: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+
+  /* Text Colors */
+  --color-heading: #ffffff;      /* Main headings */
+  --color-body: #e2e8f0;         /* Light gray body text */
+  --color-muted: #94a3b8;        /* Muted text for descriptions */
+
+  /* Backgrounds */
+  --bg-dark: #0d1117;            /* Base dark background */
+  --bg-overlay: rgba(0, 0, 0, 0.35);
+  --bg-card: #1a1f29;            /* Slightly lighter panels/cards */
+
+  /* Borders */
+  --color-border: rgba(255, 255, 255, 0.2);
+  --border-width: 1px;
+  --radius: 10px;
+
+  /* Effects */
+  --transition: all 0.3s ease;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.2);
+  --blur: blur(3px);
+}
